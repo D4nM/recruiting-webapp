@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+.nessun-hidden{
+	display: none;
+	
+}
+
+#home-body{
+	background-color: #f2f7ff;
+	
+}
+
+#search1, #search2{
+	border: 2px solid #7a60a7;
+	outline: none;
+	padding-left: 30px;
+}
+
+#search1{
+	border-top-left-radius:5px;  
+	border-bottom-left-radius:5px;  
+	border-right: 0.5px solid #b5b0d8; 
+}
+
+#search2{
+	border-top-right-radius:5px;  
+	border-bottom-right-radius:5px; 
+	border-left: 0.5px solid #b5b0d8; 
+	
+}
+
+.box-search{
+	font-family: 'Alata', sans-serif;
+}
+
+
+#immaginejob{
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+#box-search{
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	width: 100vw;
+	flex-direction: row;
+	
+}
+
+#search-submit{
+	width: 70px;
+	height: 40px;
+	color:white;
+	border-radius: 5px;
+	border:0;
+	outline: none;
+	background-color: #7a60a7;
+	transition: all 0.2s;
+}
+
+#search-submit:hover{
+	transition: all 0.2s;
+	color:white;
+	border-radius:5px;
+	border:0;
+	outline: none;
+	background-color: #8771ad;
+}
+
+
+.paragrafo1{
+	color:#bd3f3f;
+	background-position:650px;
+	background-size:75vh;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Alata', sans-serif;
+    overflow: hidden;
+    
+    
+}
+
+#img-par{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 50%;
+}
+
+#paragrafo1{
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	height: 100%;
+	padding:20px;
+	letter-spacing: 0.5px
+	
+}
+
+.paragrafo2{
+	color:#f2a450;
+	background-position:650px;
+	background-size:75vh;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Alata', sans-serif;
+    overflow: hidden;
+    
+    
+}
+
+#img-par2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 50%;
+}
+
+#paragrafo2{
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	height: 100%;
+	padding:20px;
+	letter-spacing: 0.5px
+	
+}
+
+
+.box-search{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+
+
+#img-par3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#paragrafo3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    letter-spacing: 0.5px;
+    font-family: 'Alata', sans-serif;
+    color: #2a4f96;
+  
+}
+.paragrafo3 {
+    background-position: 650px;
+    background-size: 75vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+#citta{
+	color:#E9C133;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Alata', sans-serif;
+	margin-bottom: 50px;
+	background-color: #eef4fe;
+	
+	height: 30vw;
+	
+}
+
+#immagini{
+	display: flex;
+	background-color: #eef4fe;
+}
+	
+	
+.card{
+	flex:1;
+	overflow: hidden;
+	border: 0;
+	transition: all 0.5s;
+	background-color: #eef4fe;
+}	
+
+.card img{
+	object-fit: cover;
+	background-color: #eef4fe;
+}
+
+.card:hover{
+	flex:1.2;
+	transition: all 0.2s;
+}
+
+#search-prof, #search-citta{
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	width: 30%;
+	
+}
+#search-citta{
+	margin-right: 30px;
+}
+
+#search-prof input, #search-citta input {
+	width: 100%;
+	height: 40px;
+
+	
+}
+
+.form-label{
+	color:#7a60a7;
+	padding-left: 30px;
+}
+
+.search-button{
+	display: flex;
+	align-content: flex-end;
+	justify-content: center;
+
+}
+
+.paragrafo1, .paragrafo2, .paragrafo3 {
+	border-top: 0.5px solid lightgray;
+}
+.paragrafo3 {
+	border-bottom: 0.5px solid lightgray;
+}
+
+#img-par > img, #img-par2 > img, #img-par3 > img {
+	width: 75%;
+}
+
+[id^="paragrafo"] > p {
+	font-size: 1.3rem;
+}
+
+#paragrafo1 > p, #paragrafo3 > p {
+	margin-left: 2rem;
+}
+
+#paragrafo2 > p {
+	margin-right: 2rem;
+}
+

@@ -1,0 +1,176 @@
+.annuncio-candidati {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: url(../img/immaginerecruiting21left.png) 9% 0 no-repeat , url(../img/immaginerecruiting21right.png) 92.8% 0 no-repeat;
+	background-size: auto 1034px;
+	width:100%;
+}
+
+.upper-annuncio {
+	margin-left: 25%;
+	margin-right: 25%;
+	border:  2px solid #1f0600;
+	border-bottom: none;
+	border-radius: 5px 5px 0 0;
+	width: 50%;
+
+	background-color: #fff7f5;
+}
+
+.lower-annuncio {
+	margin-left: 25%;
+	border:  2px solid #1f0600;
+	border-top: none;
+	border-radius: 0 0 5px 5px;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	width: 50%;
+	
+	background-color: #fff7f5;
+}
+
+.lower-annuncio-mod {
+	margin-left: 25%;
+	border:  2px solid #1f0600;
+	border-top: none;
+	border-bottom: none;
+	border-radius: 0;
+	padding-bottom: 15px;
+	width: 50%;
+	
+	background-color: #fff7f5;
+}
+
+.lista-candidati {
+	margin-left: 25%;
+	border:  2px solid #1f0600;
+	border-radius: 5px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	width: 50%;
+	
+	background-color: #fff7f5;
+}
+
+#infoBox-1, h4 {
+	color: #1f0600;
+}
+#infoBox-2 {
+	color: #d94c3f;
+}
+
+.info-importanti, .requisiti-minimi, .desc-dettagli {
+	margin: 20px 20px 0 20px;
+	
+}
+h2, .azioni {
+	margin-left: 20px;
+}
+.info-candidato{
+	margin-bottom: 10px;
+}
+
+.nome-cognome{
+	font-weight: bold;
+	color: #d94c3f;
+}
+.info-candidato-cv{
+	margin: 20px 20px 0 20px;
+	padding-top: 20px;
+	border-top:  2px solid #d4d2d0;
+}
+.cv {
+	margin-left: 0px;
+}
+.info-importanti, .requisiti-minimi{
+	padding-bottom: 20px;
+	border-bottom:  2px solid #d4d2d0;
+}
+
+.dettagli-annuncio {
+	margin-top: 20px;
+}
+
+.spazio {
+	height: 100px;
+}
+.spazio-2 {
+	height: 50px;
+}
+
+body {
+	font-family: "Alata", sans-serif;
+	background-color: #fff7f5;
+	
+}
+
+.annuncio-candidati [type=submit], .annuncio-candidati button, #corpo-annuncio #goback-button {
+	display: block;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-left: 20px;
+	margin-bottom: 8px;
+	margin-top: 10px;
+	background-color: #ec5648;
+	color: #591e19;
+	border: 0.1px;
+	border-radius: 5px;
+	font-weight: 625;
+}
+
+.annuncio-candidati [type=submit]:hover, .annuncio-candidati button:hover , #corpo-annuncio #goback-button:hover{
+	background-color: #611d0d;
+	color: #e66649;
+} 
+
+.infoBox > label, .dati-candidato > label{
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.infoBox, .dati-candidato{
+	display: flex;
+}
+
+.button-disabled{
+	cursor: not-allowed;
+	/*pointer-events: none; */
+	opacity: 0.5;
+}
+
+.btn-azioni-gestore, .btn-azioni-azienda{
+	display: flex;
+	align-items: center;
+}
+
+#nominativo-candidato{
+	color: #d94c3f;
+	font-size: 1.5rem;
+}
+
+#form-proroga-dataScadenza{
+	display: flex;
+    align-items: center;
+}
+
+#form-proroga-dataScadenza > input[type="date"]{
+	margin-left: 20px;
+}
+
+a:has(#goback-button) {
+	text-decoration: none;
+}
+
+#corpo-annuncio a {
+	text-decoration: none;
+}
+
+#scarica-cv-btn {
+	margin-left: 0;
+}
+
+
+
+
+

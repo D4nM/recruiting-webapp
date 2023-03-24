@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+#corpo-errorPage {
+	background-color: #e8f8fc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.titolo-errorPage {
+	margin-bottom: 30px;
+}
+
+.testo-errorPage {
+	color: #012847;
+	margin-top: 10vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.error-img {
+	display:block;
+	height: 25%;
+	width: 25%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#corpo-errorPage #goback-button {
+	border: 0;
+	outline: 0;
+	color: white;
+	background-color: #45628e;
+	border-radius: 5px;
+	font-weight: 300;
+	height: 40px;
+	
+}
+
+#corpo-errorPage #goback-button:hover {
+	background-color: #5b6f8e;
+}
