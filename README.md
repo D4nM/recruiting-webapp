@@ -1,5 +1,5 @@
 # Cos'è
-Applicazione / portale web per la ricerca di lavoro.
+Applicazione / portale web per la ricerca di lavoro.\
 Progetto finale di gruppo per il corso sviluppatori Java di Generation Italy.
 
 # Descrizione essenziale del funzionamento
