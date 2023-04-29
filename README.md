@@ -15,6 +15,9 @@ A questo punto, la sua candidatura è visibile solo ai gestori.
 In caso di approvazione, il/i candidato/i risultano visibili all'azienda.
 5. L'azienda seleziona uno dei propri annunci e visualizza la lista delle candidature "approvate": può dunque valutare i candidati a sua volta ed approvarli o scartarli.
 
+# Video dimostrativo
+https://user-images.githubusercontent.com/125446410/235309405-3bd3d91e-ff5f-4a94-88f3-3ca664ac7205.mp4
+
 # Di cosa mi sono occupato
 Escluso tutto quello inerente alla sola parte estetica, praticamente tutto:
 - Back End
